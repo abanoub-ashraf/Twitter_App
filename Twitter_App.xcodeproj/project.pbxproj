@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		2EB976B2211A5C5C00D845AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB976B1211A5C5C00D845AD /* AppDelegate.swift */; };
-		2EB976B4211A5C5C00D845AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB976B3211A5C5C00D845AD /* ViewController.swift */; };
+		2EB976B4211A5C5C00D845AD /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB976B3211A5C5C00D845AD /* RegisterVC.swift */; };
 		2EB976B7211A5C5C00D845AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB976B5211A5C5C00D845AD /* Main.storyboard */; };
 		2EB976B9211A5C6200D845AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB976B8211A5C6200D845AD /* Assets.xcassets */; };
 		2EB976BC211A5C6200D845AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB976BA211A5C6200D845AD /* LaunchScreen.storyboard */; };
+		2EFBA987212356ED0001C2C4 /* cg0jyqyjpg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EFBA986212356EB0001C2C4 /* cg0jyqyjpg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2EB976AE211A5C5C00D845AD /* Twitter_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EB976B1211A5C5C00D845AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2EB976B3211A5C5C00D845AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2EB976B3211A5C5C00D845AD /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		2EB976B6211A5C5C00D845AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EB976B8211A5C6200D845AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EB976BB211A5C6200D845AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EB976BD211A5C6200D845AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EFBA986212356EB0001C2C4 /* cg0jyqyjpg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cg0jyqyjpg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		2EB976B0211A5C5C00D845AD /* Twitter_App */ = {
 			isa = PBXGroup;
 			children = (
+				2EFBA988212357A80001C2C4 /* Assets */,
 				2EB976B1211A5C5C00D845AD /* AppDelegate.swift */,
-				2EB976B3211A5C5C00D845AD /* ViewController.swift */,
+				2EB976B3211A5C5C00D845AD /* RegisterVC.swift */,
 				2EB976B5211A5C5C00D845AD /* Main.storyboard */,
 				2EB976B8211A5C6200D845AD /* Assets.xcassets */,
 				2EB976BA211A5C6200D845AD /* LaunchScreen.storyboard */,
 				2EB976BD211A5C6200D845AD /* Info.plist */,
 			);
 			path = Twitter_App;
+			sourceTree = "<group>";
+		};
+		2EFBA988212357A80001C2C4 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2EFBA986212356EB0001C2C4 /* cg0jyqyjpg.jpg */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EB976BC211A5C6200D845AD /* LaunchScreen.storyboard in Resources */,
+				2EFBA987212356ED0001C2C4 /* cg0jyqyjpg.jpg in Resources */,
 				2EB976B9211A5C6200D845AD /* Assets.xcassets in Resources */,
 				2EB976B7211A5C5C00D845AD /* Main.storyboard in Resources */,
 			);
@@ -135,7 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EB976B4211A5C5C00D845AD /* ViewController.swift in Sources */,
+				2EB976B4211A5C5C00D845AD /* RegisterVC.swift in Sources */,
 				2EB976B2211A5C5C00D845AD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
